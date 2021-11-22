@@ -23,3 +23,4 @@ try:
   print(data)
 except (ConnectionError, Timeout, TooManyRedirects) as e:
   print(e)
+
